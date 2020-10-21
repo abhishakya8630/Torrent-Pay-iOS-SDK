@@ -1,10 +1,10 @@
-# Introduction
+#Introduction
 TorrentPay Browser (codename: Godel) aims to reduce friction in Second Factor Authentication for Cards and Netbanking.
 The library provides various convenience and security features for users to be able to complete the transaction quickly. The library also provides much deeper insight into the events occurring in the payment flow. With Godel, you will be able to provide a pleasing payment experience to your iOS users.
 
-# SDK Integration Steps
-  # Step 1: Configuration:
-   # First merchants need to call the ConnectionWrapper from checkout activity and need to pass the configuration parameters in a Dictionary.
+#SDK Integration Steps
+  ##Step 1: Configuration:
+   ###First merchants need to call the ConnectionWrapper from checkout activity and need to pass the configuration parameters in a Dictionary.
               var configuration= Dictionary<String,Any>();
               configuration ["environment"] = 2;
               configuration ["theme_id"] = 1 ;
@@ -14,15 +14,15 @@ The library provides various convenience and security features for users to be a
               configuration ["navigation_bar”] = true/false;
               
               
-# Step 2: Service calling
-# Two parameters, object of implentation of ICallbackResponses and payment parameters in json object will be required to start the browser.
+##Step 2: Service calling
+###Two parameters, object of implentation of ICallbackResponses and payment parameters in json object will be required to start the browser.
                   ConnectionWrapper.makeServiceCall(MerchantCallback(),paymentParameters) will be used to start
                   the browser
                   MerchantCallback(),: Inherited class object of ICallbackResponses interface implementation
                   paymentParameters: Payment parameters to be specified in Dictionary object
                   
-#  2.1: ICallbackResponses Callback:
-  # Merchant need to implement the ICallbackResponses for the callback to get the transaction response
+##2.1: ICallbackResponses Callback:
+  ###Merchant need to implement the ICallbackResponses for the callback to get the transaction response
                         public class MerchantCallback: ICallbackResponses{
                         public func onErrorOccured (code:Int ,message:String)
                         {
@@ -51,8 +51,8 @@ The library provides various convenience and security features for users to be a
                         //will be called when user back pressed the button
                         }
                         
- # 2.2: Payment parameters
-# Merchant need to pass the payment parameter in a bundle object to start the payment
+ ## 2.2: Payment parameters
+## Merchant need to pass the payment parameter in a bundle object to start the payment
                         var paymentParameters= Dictionary<String,String>();
                         paymentParameters["merchant_id"]=String;
                         paymentParameters["order_id"]=String;
@@ -61,10 +61,10 @@ The library provides various convenience and security features for users to be a
                         paymentParameters["customer_id"]=String;
                         paymentParameters["customer_email"]=String;
                         paymentParameters["customer_phone_no"]=String;
-# Start the service:
+### Start the service:
                ConnectionWrapper .makeServiceCall(MerchantCallback(),paymentParameters)
-# Stop the service:
-# This method can be called any time to stop the browser and callback will be triggered.
+## Stop the service:
+### This method can be called any time to stop the browser and callback will be triggered.
                           BrowserCheckout .requestServiceStop()
                           Browser Response: Merchant can access the response of ConnectionWrapper by using response
                           Dictionary object passed at the time of onTransactionResponse callback.
