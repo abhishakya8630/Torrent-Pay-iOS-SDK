@@ -4,8 +4,7 @@ The library provides various convenience and security features for users to be a
 
 # SDK Integration Steps
   # Step 1: Configuration:
-   # First merchants need to call the ConnectionWrapper from checkout activity and need to pass the
-              configuration parameters in a Dictionary.
+   # First merchants need to call the ConnectionWrapper from checkout activity and need to pass the configuration parameters in a Dictionary.
               var configuration= Dictionary<String,Any>();
               configuration ["environment"] = 2;
               configuration ["theme_id"] = 1 ;
