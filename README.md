@@ -2,9 +2,9 @@
 TorrentPay Browser (codename: Godel) aims to reduce friction in Second Factor Authentication for Cards and Netbanking.
 The library provides various convenience and security features for users to be able to complete the transaction quickly. The library also provides much deeper insight into the events occurring in the payment flow. With Godel, you will be able to provide a pleasing payment experience to your iOS users.
 
-#SDK Integration Steps
-  ##Step 1: Configuration:
-   ###First merchants need to call the ConnectionWrapper from checkout activity and need to pass the configuration parameters in a Dictionary.
+# SDK Integration Steps
+  ## Step 1: Configuration:
+   ### First merchants need to call the ConnectionWrapper from checkout activity and need to pass the configuration parameters in a Dictionary.
               var configuration= Dictionary<String,Any>();
               configuration ["environment"] = 2;
               configuration ["theme_id"] = 1 ;
@@ -14,15 +14,15 @@ The library provides various convenience and security features for users to be a
               configuration ["navigation_bar”] = true/false;
               
               
-##Step 2: Service calling
-###Two parameters, object of implentation of ICallbackResponses and payment parameters in json object will be required to start the browser.
+## Step 2: Service calling
+### Two parameters, object of implentation of ICallbackResponses and payment parameters in json object will be required to start the browser.
                   ConnectionWrapper.makeServiceCall(MerchantCallback(),paymentParameters) will be used to start
                   the browser
                   MerchantCallback(),: Inherited class object of ICallbackResponses interface implementation
                   paymentParameters: Payment parameters to be specified in Dictionary object
                   
-##2.1: ICallbackResponses Callback:
-  ###Merchant need to implement the ICallbackResponses for the callback to get the transaction response
+## 2.1: ICallbackResponses Callback:
+  ### Merchant need to implement the ICallbackResponses for the callback to get the transaction response
                         public class MerchantCallback: ICallbackResponses{
                         public func onErrorOccured (code:Int ,message:String)
                         {
