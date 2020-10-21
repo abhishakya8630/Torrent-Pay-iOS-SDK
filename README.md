@@ -23,10 +23,10 @@ TorrentPay enhances the payment experience and boosts the success rate with the 
 - The input field is not visible - Input box is not visible on the screen. In such cases, the customer must scroll left, scroll right, scroll up, and scroll down to reach the input box. With Pine Labs' Plural Checkout payment pages, input is focused, and a user does not have to scroll.
 
 4. **Remember Net banking User ID**
-It pertains to the Net Banking transactions in which the customer has given the permission to remember the Net Banking user ID. When the customer visits the application subsequently for any transaction, Net Banking user ID is shown pre-filled. Customer can the change Net Banking user ID in case he intends to transact from another user ID of the same bank.
+###### It pertains to the Net Banking transactions in which the customer has given the permission to remember the Net Banking user ID. When the customer visits the application subsequently for any transaction, Net Banking user ID is shown pre-filled. Customer can the change Net Banking user ID in case he intends to transact from another user ID of the same bank.
 
 5. **Auto-manual reload when page load fails**
-When the payment page fails to load customers tends to cancel the transaction. It impacts the success rate of transaction. With TorrentPay the page reloads automatically on page load failures or the customer can reload the page.
+###### When the payment page fails to load customers tends to cancel the transaction. It impacts the success rate of transaction. With TorrentPay the page reloads automatically on page load failures or the customer can reload the page.
 
 ## SDK Integration Steps
 ### Step 1: Configuration:
