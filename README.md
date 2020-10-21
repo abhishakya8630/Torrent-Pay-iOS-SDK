@@ -1,6 +1,6 @@
 # Introduction
 TorrentPay Browser (codename: Godel) aims to reduce friction in Second Factor Authentication for Cards and Netbanking.
-The library provides various convenience and security features for users to be able to complete the transaction quickly. The library also provides much deeper insight into the events occurring in the payment flow. With Godel, you will be able to provide a pleasing payment experience to your iOS users.
+The library provides various convenience and security features for users to be able to complete the transaction quickly. The library also provides much deeper insight into the events occurring in the payment flow. With Godel, you will be able to provide a pleasing payment experience to your Android users.
 
 # SDK Integration Steps
   ### Step 1: Configuration:
