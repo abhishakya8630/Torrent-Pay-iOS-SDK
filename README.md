@@ -1,5 +1,32 @@
 # Introduction
-TorrentPay Browser (codename: Godel) aims to reduce friction in Second Factor Authentication for Cards and Netbanking. The library provides various convenience and security features for users to be able to complete the transaction quickly. The library also provides much deeper insight into the events occurring in the payment flow. With Godel, you will be able to provide a pleasing payment experience to your iOS users.
+TorrentPay for Mobile SDK facilitates enhanced mobile payments experience for end user in mobile app eco-system. It helps to build best in market mobile-based payment systems using this SDK.
+
+TorrentPay enhances the payment experience and boosts the success rate with the following array of the features.
+
+1.  **Auto-OTP processing**
+###### In TorrentPay enabled transaction journey, Auto-OTP processing involves following functions.
+
+- It reads the OTP from the customer's registered mobile number.
+- It shows the OTP to the customer and asks for the approval to process the same.
+- Once approved, it inputs the OTP in the required filed and processes it further.
+
+2. **Showing correct keypad for required input**
+###### On any mobile application, on the tap on any input field the keypad pops up. The keypad of Android and iOS show alphabetic keypad as a default for every input field. The feature of "Showing correct keypad for required input" involves the following.
+
+- The numeric keypad to be opened if the input to be entered is numeric. For example, the customer ID of HDFC bank is numeric. When a customer clicks on input filed of customer ID the numeric keypad will be opened.
+- Fields where input can be alpha numeric, the default keypad will be opened.
+
+3. **Auto-zoom and Auto-scroll**
+###### In a normal transaction journey, the bank page opens in the following two fashions.
+
+- Page fits in the mobile screen - In such cases, due to small size of mobile screens, the content of the page is very difficult to read. So, the customer must zoom-in into the page to see the content and tap on the input box. In Pine Labs' Plural Checkout enabled payment page, the bank page is zoomed in automatically and customer can easily enter the input to proceed with the transaction.
+- The input field is not visible - Input box is not visible on the screen. In such cases, the customer must scroll left, scroll right, scroll up, and scroll down to reach the input box. With Pine Labs' Plural Checkout payment pages, input is focused, and a user does not have to scroll.
+
+4. **Remember Net banking User ID**
+It pertains to the Net Banking transactions in which the customer has given the permission to remember the Net Banking user ID. When the customer visits the application subsequently for any transaction, Net Banking user ID is shown pre-filled. Customer can the change Net Banking user ID in case he intends to transact from another user ID of the same bank.
+
+5. **Auto-manual reload when page load fails**
+When the payment page fails to load customers tends to cancel the transaction. It impacts the success rate of transaction. With TorrentPay the page reloads automatically on page load failures or the customer can reload the page.
 
 ## SDK Integration Steps
 ### Step 1: Configuration:
