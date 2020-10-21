@@ -78,3 +78,7 @@ The library provides various convenience and security features for users to be a
               responseBundle[“start_url”];
               responseBundle[“payment_finish_time”];
               responseBundle[“payment_start_time”]
+
+# ScreenShots
+
+<img width="360" alt="Screenshot 2020-10-22 at 12 02 33 AM" src="https://user-images.githubusercontent.com/23396167/96767340-07e2fc00-13fa-11eb-8716-5a4e5be11da8.png"> <img width="375" alt="Screenshot 2020-10-22 at 12 00 38 AM" src="https://user-images.githubusercontent.com/23396167/96767534-48db1080-13fa-11eb-8d68-324aa2f322e6.png"> <img width="349" alt="Screenshot 2020-10-22 at 12 02 13 AM" src="https://user-images.githubusercontent.com/23396167/96767591-5a241d00-13fa-11eb-9051-8b9f692f0c6b.png">
