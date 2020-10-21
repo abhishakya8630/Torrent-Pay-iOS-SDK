@@ -19,8 +19,8 @@ TorrentPay enhances the payment experience and boosts the success rate with the 
 3. **Auto-zoom and Auto-scroll**
 ###### In a normal transaction journey, the bank page opens in the following two fashions.
 
-- Page fits in the mobile screen - In such cases, due to small size of mobile screens, the content of the page is very difficult to read. So, the customer must zoom-in into the page to see the content and tap on the input box. In Pine Labs' Plural Checkout enabled payment page, the bank page is zoomed in automatically and customer can easily enter the input to proceed with the transaction.
-- The input field is not visible - Input box is not visible on the screen. In such cases, the customer must scroll left, scroll right, scroll up, and scroll down to reach the input box. With Pine Labs' Plural Checkout payment pages, input is focused, and a user does not have to scroll.
+- Page fits in the mobile screen - In such cases, due to small size of mobile screens, the content of the page is very difficult to read. So, the customer must zoom-in into the page to see the content and tap on the input box. In Torrent Pay Checkout enabled payment page, the bank page is zoomed in automatically and customer can easily enter the input to proceed with the transaction.
+- The input field is not visible - Input box is not visible on the screen. In such cases, the customer must scroll left, scroll right, scroll up, and scroll down to reach the input box. With Torrent Pay payment pages, input is focused, and a user does not have to scroll.
 
 4. **Remember Net banking User ID**
 ###### It pertains to the Net Banking transactions in which the customer has given the permission to remember the Net Banking user ID. When the customer visits the application subsequently for any transaction, Net Banking user ID is shown pre-filled. Customer can the change Net Banking user ID in case he intends to transact from another user ID of the same bank.
